@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/Basoan--Basoan1/',
+    base: '/Basoan---Basoan1/',
 
     plugins: [react(), tailwindcss()],
 
